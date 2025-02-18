@@ -22,7 +22,7 @@ const corsOptions = {
 };
 // app.use(cors(corsOptions));
 app.use(cors({
-    origin: '*',
+    origin: 'https://blog-zoople.netlify.app',
     credentials: true,
 }));
 
